@@ -1,0 +1,19 @@
+{
+  "name": "puppies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yomawa/puppies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yomawa/puppies/issues"
+  },
+  "homepage": "https://github.com/Yomawa/puppies#readme"
+}
