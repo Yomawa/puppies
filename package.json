@@ -2,7 +2,7 @@
   "name": "puppies",
   "version": "1.0.0",
   "description": "",
-  "main": "pup.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Yomawa/puppies/issues"
   },
-  "homepage": "https://github.com/Yomawa/puppies#readme"
+  "homepage": "https://github.com/Yomawa/puppies#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
 }

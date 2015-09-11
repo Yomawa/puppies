@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Puppies</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1 class="text-center">Puppies</h1>
+
+  <ul  style="list-style-type: none;" class="text-center">
+    <% puppies.forEach(function(puppy){ %>
+    <li><%= puppy.name %> <%= puppy.age %></li>
+    <% });%>
+  </ul>
+  <form action="/puppies/new" class="text-center">
+  <button name="button" class="btn btn-primary">Add a puppy!</button>
+  </form>
+
+</body>
+</html>
