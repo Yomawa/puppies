@@ -41,7 +41,7 @@ app.get("/contact", function(req, res){
 //UGING POST
 app.post("/puppies", function(req, res){
   newPuppy={};
-  newPuppy.name = req.body.name;
+  newPuppy.name = req.body.name;//we can do this becuse on the top of our code we requre body-parser
   newPuppy.age = req.body.age;
   puppies.push(newPuppy);
   newPuppy.id = newId;
